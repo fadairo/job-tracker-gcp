@@ -1,5 +1,26 @@
+# Framework and routing
 flask==2.3.3
+gunicorn==21.2.0
+werkzeug==2.3.7
+
+# Google Cloud integration
 google-cloud-storage==2.13.0
 google-cloud-firestore==2.13.1
-python-dotenv==1.0.0
 google-auth==2.23.3
+
+# Security and authentication
+python-jose==3.3.0
+cryptography==41.0.7
+
+# Environment and configuration
+python-dotenv==1.0.0
+
+# Utilities
+requests==2.31.0
+typing-extensions==4.9.0
+
+# Async support
+aiohttp==3.9.1
+
+# Production server
+gunicorn==21.2.0
